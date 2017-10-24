@@ -13,6 +13,6 @@ function addElementToBeginningOfArray(array, element){
 
 function destructivelyAddElementToBeginningOfArray(array, element){
   var beginning = [array]
-  beginning.unshift(element)
+  beginning.push(element)
   return beginning
 }
